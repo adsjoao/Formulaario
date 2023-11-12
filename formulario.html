@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend style="text-align: center;">Dados pessoais</legend>
+            <div class="pulo">
+                <label for="idnome">Nome</label>
+                <input type="text" id="idnome" required>
+            </div>
+            <div class="pulo">
+                <label for="nascimento">Data de nascimento </label>
+                <input type="date" id="nascimento">
+            </div>
+            <div class="pulo">
+                <label for="idemail">Email</label>
+                <input type="email" id="idemail">
+            </div>
+            <div class="pulo">
+                <label for="idtelefone">Telefone</label>
+                <input type="tel" id="idtelefone">
+            </div>
+                <div class="pulo" >
+                    <input type="reset" value="Limpar">
+                    <input type="submit">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Cursos</legend>
+            <label for="">Curso</label>
+            <select name="" id="">
+                <option value="">ADS</option>
+                <option value="" selected>Banco de Dados</option>
+                <option value="">Segurança de informação</option>
+                <option value="">Ciência de Dados</option>
+            </select>
+           <div>
+               <label for="">Semestre</label>
+               <input type="radio" name="Semestre" id="1" checked>
+               <label for="1">1º</label>
+               <input type="radio" name="Semestre" id="2"> 
+               <label for="1">2º</label>
+               <input type="radio" name="Semestre" id="3"> <!-- a mesma variavel pra name serve para que o opção fiquei de seleção única -->
+               <label for="1">3º</label>
+               <input type="radio" name="Semestre" id="4">
+               <label for="1">4º</label>
+           </div>
+        </fieldset>
+        <fieldset>
+                <div>
+                    <label for="trab">Trabalha</label>
+                    <input type="checkbox" id="trab">
+                </div>
+                <div>
+                    <label for="">Local de trabalho: </label>
+                    <input type="text">
+                </div>
+                <textarea name="" id="" cols="37" rows="5">Escreva sua expreriência...</textarea>
+                <div>
+                    <input type="submit" value="Gravar">
+                    <input type="reset" value="Limpar">
+                </div> 
+                
+            </fieldset>
+
+        </form>
+    </body>
+
+</html>
+
